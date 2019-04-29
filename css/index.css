@@ -389,7 +389,7 @@ footer .copyright {
 
 @media (max-width: 500px) {
   .container-services {
-    margin: 0 3%;
+    margin: 0 5%;
   }
 }
 
@@ -420,6 +420,7 @@ footer .copyright {
 @media (max-width: 800px) {
   .web-banner div h2 {
     text-align: center;
+    font-size: 1.5rem;
   }
 }
 
