@@ -381,6 +381,18 @@ footer .copyright {
   flex-direction: column;
 }
 
+@media (max-width: 800px) {
+  .container-services {
+    margin: 0 5%;
+  }
+}
+
+@media (max-width: 500px) {
+  .container-services {
+    margin: 0 3%;
+  }
+}
+
  #services {
 	 margin-bottom: 20px;
  }
@@ -403,6 +415,22 @@ footer .copyright {
 .web-banner div p {
 	line-height: 20px;
 	text-align: justify;
+}
+
+@media (max-width: 800px) {
+  .web-banner div h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .web-banner img {
+    display: none;
+  }
+
+  .web-banner div {
+    margin-bottom: 2rem;
+  }
 }
 
 .list {
@@ -435,6 +463,17 @@ footer .copyright {
 	padding: 10px 35px 10px 35px;
 }
 
+@media (max-width: 500px) {
+  .list {
+    flex-direction: column;
+  }
+
+  .list div {
+    width: 100%;
+    margin: 1.5rem 0;
+  }
+}
+
 .tail-notes {
 	display: flex;
 	justify-content: space-between;
@@ -454,6 +493,21 @@ footer .copyright {
 	list-style-type: square;
 	list-style-position: inside;
 	padding-bottom: 10px;
+}
+
+@media (max-width: 500px) {
+  .tail-notes {
+    flex-direction: column-reverse;
+    margin-top: 1rem;
+  }
+
+  .tail-notes div, img {
+    width: 100%;
+  }
+
+  .tail-notes div {
+    margin-top: 2rem;
+  }
 }
 
 .services-footer {
