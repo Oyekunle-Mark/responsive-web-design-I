@@ -214,6 +214,10 @@ header .logo {
 }
 
 @media (max-width: 500px) {
+  .container {
+    margin: 0;
+  }
+
   header {
     padding: 0;
     margin: 0;
@@ -389,7 +393,7 @@ footer .copyright {
 
 @media (max-width: 500px) {
   .container-services {
-    margin: 0 5%;
+    margin: 0;
   }
 }
 
@@ -514,4 +518,11 @@ footer .copyright {
 .services-footer {
 	text-align: center;
 	margin: 100px 0 30px 0;
+}
+
+@media (max-width: 500px) {
+  #container-body {
+    margin: 0 5%;
+    red;
+  }
 }
